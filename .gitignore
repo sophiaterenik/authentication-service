@@ -1,4 +1,7 @@
-#ide files
+# IDE files
+*.vcs
+*.iml
+.idea/
 
 # Binaries for programs and plugins
 *.exe
