@@ -11,7 +11,6 @@ func main() {
 	r.HandleFunc("/", handler.Home)
 	r.HandleFunc("/signup", handler.SignUp)
 	r.HandleFunc("/login", handler.Login)
-
 	http.Handle("/", r)
 	http.ListenAndServe(":8080", nil)
 }
